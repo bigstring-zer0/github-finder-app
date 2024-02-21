@@ -84,3 +84,10 @@ function clearAlert() {
         currentAlert.remove();
     }
 }
+
+function clearProfile() {
+    this.profile.innerHTML = '';
+}
+
+
+
